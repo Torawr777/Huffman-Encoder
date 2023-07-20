@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+{
+"formatter" : "RawFormatter",
+"scores" : {"Correctness" : 20, "Huffman Encoder" : 20}
+}
