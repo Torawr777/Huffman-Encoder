@@ -1,3 +1,13 @@
+Huffman encoding is a form of data compression that is useful for text. Normally, (English)
+text is encoded so that each letter occupies the same amount of space – typically a byte. 
+Huffman encoding works by observing that some letters occur more frequently than others (e.g. E is
+very common, Z is very uncommon.) Using this, it constructs variable-length encodings so that
+frequently occurring letters occupy less space, individually than their infrequent counterparts.
+
+This project implements a priority queue based on a min heap, and using that
+as the basis of a Huffman encoder.
+
+
 Build the Java project
 
 To test your work: 
